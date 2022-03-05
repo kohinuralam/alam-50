@@ -1,0 +1,831 @@
+* {
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'AvenirLTPro-Oblique';
+  src: url('fonts/AvenirLTPro-Oblique.eot');
+  src: url('fonts/AvenirLTPro-Oblique.eot?#iefix') format('embedded-opentype'),
+       url('fonts/AvenirLTPro-Oblique.svg#AvenirLTPro-Oblique') format('svg'),
+       url('fonts/AvenirLTPro-Oblique.ttf') format('truetype'),
+       url('fonts/AvenirLTPro-Oblique.woff') format('woff'),
+       url('fonts/AvenirLTPro-Oblique.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* ==========font-area-end============*/
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 16px; 
+
+ }
+
+ a:hover {
+    text-decoration: none;
+ }
+
+ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+
+/* ==========header-area-start====*/
+
+.header-area {
+    background: #1575BB;
+}
+
+.header-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+
+}
+
+.header-menu ul li {
+        padding: 15px 15px;
+}
+
+.header-menu ul li a {
+        font-family: 'AvenirLTPro-Oblique';
+        font-size: 15px;
+        color: #ffffff;       
+}
+
+.menu-bars i {
+    font-size: 30px;
+    color: #ffffff;
+    display: none;
+}
+
+.header-menu ul li:hover,
+#active {
+    background: #DE9F1B;
+}
+
+.header-social-wrapper {
+        display: flex;
+        justify-content: flex-end;
+}
+
+.search-bar input {
+        width: 100%;
+        outline: none;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #5C9FD0;
+        color: #ffffff;
+        font-size: 13px;
+        font-style: italic;
+        padding: 14px 0 0 0;
+
+}
+
+.search-icon i {
+        font-size: 13px;
+        color: #ddd;
+        margin: 15px 0 0 -16px;
+}
+
+.header-social ul {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.header-social ul li {
+        padding: 15px 15px;
+}
+
+.header-social ul li a {
+        font-size: 13px;
+        color: #1575BB;
+        width: 16px;
+        height: 17px;
+        background: #ffffff;
+        display: block;
+        text-align: center;
+}
+
+/* =============header-area-end=======*/
+
+/*=============hero-area-start========*/
+
+.hero-area {
+        background: url('images/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 0 0 70px 0;
+       
+}
+
+.menegment {
+        max-width: 360px;
+        background: linear-gradient(90deg, #64B76A 50%, #1575BB 50%);
+        display: flex;
+        justify-content: space-around;
+        margin: 28px 0 0 0;
+
+}
+
+.hero-content-wrapper {
+    max-width: 360px;
+}
+
+.hero-content img {
+         padding: 35px 0 0 0;
+}
+
+.hero-content h2 {
+         font-family: 'AvenirLTPro-Oblique';
+         font-size: 22px;
+         color: #181818;
+         line-height: 17px;
+         margin: 27px 0 28px 0;
+         text-align: center;
+}
+
+.hero-content p {
+        font-size: 13.97px;
+        color: #181818;
+        line-height: 20px;
+        text-align: center;
+
+
+}
+
+.menegment p {
+         font-family: 'AvenirLTPro-Oblique';
+         font-size: 22px;
+         color: #fff;
+         font-weight: 700;
+         padding-top: 16px;  
+}
+
+.hero-button a {
+         font-family: 'AvenirLTPro-Oblique';
+         font-size: 13.97px;
+         color: #fff;
+         background: #ED6B29;
+         display: inline-block;
+         padding: 8px 35px;
+         border-radius: 20px; 
+         margin: 15px 0 0 0;
+}
+
+/* =============hero-area-end=========*/
+
+
+ /*===========more-area-start===*/
+.more-area {
+        background: #1575BB;
+}
+
+ .more-content,
+ .we-content {
+        background: #1575BB;
+        padding: 0 5px 40px 5px;
+        position: relative;
+           
+ }
+
+ .we-content {
+        background: #1768A4;
+ }
+
+ .more-desbord-1,
+ .more-desbord-2,
+ .more-desbord-3{
+        width: 236px;
+        height: 46px;
+        background: #FBB51F;
+        font-family: 'AvenirLTPro-Oblique';
+        font-weight: 700;
+        font-size: 20.32px;
+        color: #ffffff;
+        position: absolute;
+        padding: 5px 0 0 0;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+
+ }
+
+ .more-desbord-2 {
+        background: #64B76A;
+ }
+
+ .more-desbord-3 {
+        background: #ED6B29;
+ }
+
+
+  .more-content span,
+  .we-content span {
+        width: 70px;
+        height: 2px;
+        background: #ffffff;
+        display: block;
+        margin: 10px auto 0;
+  }
+
+
+  .more-content h2,
+  .we-content  h2 {
+         font-family: 'AvenirLTPro-Oblique';
+         font-size: 17.78px;
+         color: #fff;
+         line-height: 17px;
+         padding: 58px 0 0 0;
+  }
+
+  .more-content p,
+  .we-content p {
+        font-size: 13.97px;
+        color: #fff;
+        line-height: 27px;
+        margin: 28px 0 0 0;
+
+  }
+
+  .more-content a,
+  .we-content a {
+        font-family: 'AvenirLTPro-Oblique';
+        font-size: 13.97px;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 8px 20px;
+        display: inline-block;
+        margin: 24px 0 0 0;
+
+  }
+
+/* =============more-area-end======= */
+
+/* =============wellcome-area-start======*/
+
+.wellcome-area {
+        background: #FFFFFF;
+        padding: 65px 0 60px 0;
+}
+
+.wellcome-title h2 {
+        font-family: 'AvenirLTPro-Oblique';
+        font-size: 25px;
+        color: #181818;
+        line-height: 17px; 
+}
+
+.wellcome-title span {
+        width: 55px;
+        height: 2px;
+        display: block;
+        background: #A3C8E4;
+        margin: 5px auto 0;
+
+}
+
+.wellcome-content h5 {
+         font-family: 'AvenirLTPro-Oblique';
+         font-weight: 700;
+         font-size: 16px;
+         color: #181818;
+         line-height: 17px;
+         margin: 40px 0 0 0;
+}
+
+.wellcome-content p {
+         font-size: 13px;
+         color: #181818;
+         line-height: 25px;
+         margin: 25px 0 0 0;
+
+}
+
+.wellcome-images img {
+         margin: 40px 0 0 0;
+}
+
+.wellcome-desbord-weapper {
+        max-width: 600px;
+        display: flex;
+        margin: 40px 0 0 0;
+   
+  
+}
+
+.wellcome-desbord-1 {
+        display: flex;
+        align-items: center;
+        padding: 15px 15px 15px 10px;
+        margin-right: 15px;
+
+
+}
+
+.wellcome-desbord-1 i {
+        width: 40px;
+        height: 40px;
+        background: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        color: #64B76A;
+        font-size: 20px;
+}
+
+.wellcome-desbord-1 p {
+        font-family: 'AvenirLTPro-Oblique';
+        color: #64B76A;
+        margin: 0;
+        font-size: 13px;
+        color: #fff;
+}
+
+.wellcome-desbord-1 dl {
+        font-weight: 600;
+        color: #64B76A;
+        margin: 0;
+        font-size: 15px;
+        color: #fff;
+}
+
+.wellcome-desbord-2 {
+        display: flex;
+        align-items: center;
+         padding: 15px 15px 15px 10px;
+           
+}
+
+.wellcome-desbord-2 i {
+        width: 40px;
+        height: 40px;
+        background: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        color: #007BFF;
+        font-size: 20px;
+
+}
+
+.wellcome-desbord-2 p {
+        font-family: 'AvenirLTPro-Oblique';
+        color: #64B76A;
+        margin: 0;
+        font-size: 13px;
+        color: #fff;
+}
+
+.wellcome-desbord-2 dl {
+        font-weight: 600;
+        color: #64B76A;
+        margin: 0;
+        font-size: 13px;
+        color: #fff;
+}
+
+.desbord-icon {
+        padding-right: 7px;
+}
+
+/*=============wellcome-area-end========*/
+
+/* =============choose-area-start====*/
+ 
+ .choose-area {
+        background: url('images/gf-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 0 25px 0;
+ }
+
+ .choose-images img {
+        margin: 28px 0 0 0;
+ }
+
+ .choose-content h2 {
+        font-family: 'AvenirLTPro-Oblique';
+        font-size: 25px;
+        color: #ffffff;
+        line-height: 17px;
+        padding: 56px 0 0 0;
+ }
+
+ .choose-content span {
+        width: 55px;
+        height: 2px;
+        display: block;
+        background: #E5A61F;
+        margin: 15px 0 0 0;
+ }
+
+ .lorem-1 p,
+ .lorem-2 p,
+ .lorem-3 p {
+        font-family: 'AvenirLTPro-Oblique';
+        font-size: 14px;
+        color: #181818;
+        margin: 0;
+
+       
+ }
+
+ .angel-icon i {
+        font-size: 13px;
+        color: #181818;
+        text-align: right;
+        width: 15px;
+        height: 15px;
+        background: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 15px;
+ }
+
+
+.lorem-1 {
+        background: #FFFFFF;
+        padding: 25px 15px 25px 30px;
+        margin: 32px 0 0 0;
+
+}
+
+.lorem-1 p {
+        line-height: 30px;  
+}
+
+
+.lorem-2 {
+        background: #FBB51F;
+        display: flex;
+        padding: 12px 15px 12px 30px; 
+        margin: 16px 0 0 0;
+}
+
+.lorem-2 p {
+    color: #ffffff;
+   
+}
+
+.lorem-3 {
+        background: #ffffff;
+        margin: 16px 0 0 0;
+        padding: 12px 15px 12px 30px;
+}
+
+/*=============choose-area-end====*/
+
+/*=============service-area-start=====*/
+
+.service-area {
+        padding: 68px 0 63px 0;
+        background: #ffffff;
+}
+
+.service-title h2 {
+        font-family: 'AvenirLTPro-Oblique';
+        font-size: 25px;
+        color: #181818;
+        line-height: 17px;
+}
+
+.service-title span {
+         width: 55px;
+         height: 2px;
+         display: block;
+         background: #9BC4E2;
+         margin: 10px auto 0;
+}
+
+.service-title p {
+         font-size: 14px;
+         color: #181818;
+         line-height: 28px;
+         margin: 30px 0 0 0;
+}
+
+.service-content h5 {
+          font-family: 'AvenirLTPro-Oblique';
+          font-weight: 700;
+          font-size: 16px;
+          color: #181818;
+          line-height: 17px;
+          margin: 50px 0 0 0;    
+}
+
+.service-content p {
+         font-size: 14px;
+         color: #181818;
+         line-height: 25px;
+         margin: 23px 0 0 0;
+
+}
+
+.service-content a {
+         font-family: 'AvenirLTPro-Oblique';
+         font-size: 13px;
+         color: #ffffff;
+         background: #ED6B29;
+         display: inline-block;
+         padding: 8px 25px;
+         border-radius: 20px;
+         text-transform: uppercase;
+         margin: 30px 0 0 0;
+}
+
+.service-button-1,
+.service-button-2,
+.service-button-3 {
+         background: #ED6B29;
+         font-family: 'AvenirLTPro-Oblique';
+         font-weight: 700;
+         font-size: 15px;
+         color: #ffffff;
+         text-align: center;
+         padding: 5px 0 5px 0;
+         border-radius: 30px;
+}
+
+.service-item {
+        background: #1575BB;
+        padding: 10px 15px 30px 10px;
+        margin: 30px 0 0 0;
+}
+
+.service-item-1 {
+    background: #1768A4;
+    padding: 10px 15px 30px 10px;
+    margin: 30px 0 0 0;
+}
+
+.service-item p,
+.service-item-1 p {
+         font-size: 14px;
+         color: #ffffff;
+         line-height: 25px;
+         text-align: center;
+         margin: 25px 0 0 0;
+}
+
+.service-button-2 {
+         background: #FBB51F;
+}
+
+.service-button-3 {
+         background: #64B76A;
+}
+
+/*=============service-area-end======*/
+
+/* =============gellary-area-start=========*/
+
+ .gellary-area {
+            background: url('images/gellary.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 0 0 50px 0;
+
+ }
+
+ .gellary-item h5 {
+            font-family: 'AvenirLTPro-Oblique';
+            font-weight: 700;
+            font-size: 27px;
+            color: #ffffff;
+            line-height: 17px;
+            margin: 20px 0 0 0;
+ }
+
+ .gellary-item p {
+            font-family: 'AvenirLTPro-Oblique';
+            font-size: 17px;
+            color: #ffffff;
+            line-height: 17px;
+            margin: 14px 0 0 0;
+
+
+}
+
+.gellary-item img {
+             margin: 40px 0 0 0;
+}
+
+  /*============gellary-area-end==========*/
+
+  /*============peopole-area-start==========*/
+
+.people-area {
+            padding: 0 0 110px 0;
+}
+
+
+.people-title h2 {
+             font-family: 'AvenirLTPro-Oblique';
+             font-size: 25px;
+             color: #181818;
+             line-height: 17px;
+             padding: 70px 0 0 0;      
+}
+
+.people-title span {
+             width: 55px;
+             height: 2px;
+             display: block;
+             background: #9BC4E2;
+             margin: 10px auto 0;               
+}
+
+.people-title p {
+             font-size: 13px;
+             color: #181818;
+             line-height: 25px;
+             margin: 40px 0 0 0;      
+
+}
+
+.people-content img {
+             width: 70px;
+             height: 70px;
+             border-radius: 50%;
+             margin: 38px 0 0 0;
+}
+
+.people-lorem-1,
+.people-lorem-2 {
+            background: #1768A4;
+            font-family: 'AvenirLTPro-Oblique';
+            font-weight: 700;
+            font-size: 19px;
+            color: #ffffff;
+            padding: 10px;
+            margin: 22px 0 0 0;
+
+
+}
+
+.people-text {
+            background: #F2F2F2;
+            color: #181818;
+            line-height: 25px;
+            font-size: 13px;
+            padding: 25px 10px 40px 10px;
+}
+
+.people-lorem-2 {
+            background: #64B76A;
+}
+
+/*===========peopole-area-end========*/
+
+/*===========contact-area-start========*/
+.contact-area {
+            background: #1D1D1D;
+            padding: 0 0 30px 0;
+            border-bottom: 1px solid #BBBBBB;
+}
+
+.contact-item h2,
+.our-service-item h2,
+.links-item h2,
+.contact-item h2 {
+            font-family: 'AvenirLTPro-Oblique';
+            font-size: 17px;
+            color: #ffffff;
+            line-height: 17px;
+            padding: 52px 0 30px 0; 
+}
+
+.contact-item p {
+            font-size: 13px;
+            color: #ffffff;
+            line-height: 25px;
+
+}
+
+.contact-item ul li a, 
+.our-service-item ul li a, 
+.links-item ul li a, 
+.contact-item ul li a {
+            font-size: 13px;
+            color: #ffffff;           
+}
+
+.contact-item ul li, 
+.our-service-item ul li, 
+.links-item ul li, 
+.contact-item ul li {
+            padding: 0 0 10px 0;
+}
+
+.contact-item span i {
+            font-size: 13px;
+            color: #C28F22;
+            padding-right: 10px;
+}
+
+.contact-social li {
+            margin: 0 2px;
+}
+
+.contact-social li a i {
+            font-size: 13px;
+            color: #000;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            background: #606060;
+}
+
+.contact-social li p {
+            padding-right: 10px;
+}
+
+.links-item ul li a span {
+            padding-left: 30px;
+}
+
+.contact-form input[type=text] {
+            width: 100%;
+            outline: none;
+            border: none;
+            background: none;
+            border-bottom: 1px solid #434343;
+            font-size: 13px;
+            font-style: italic;
+            margin: 0 0 8px;
+            color: #fff;
+}
+
+.contact-form textarea {
+            width: 100%;
+            outline: none;
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #434343;
+            font-size: 13px;
+            font-style: italic;
+            color: #fff;
+
+}
+
+.contact-form input[type=submit] {
+            padding: 3px 20px;
+            font-family: 'AvenirLTPro-Oblique';
+            font-size: 13px;
+            outline: none;
+            border: none;
+            background: #ED6B29;
+            color: #fff;
+            border-radius: 20px;
+            margin: 25px 0 0 0;
+
+}
+
+/*===========contact-area-end========*/
+
+/*===========footer-area-start========*/
+
+.footer-area {
+            background: #1D1D1D;
+            padding: 15px;
+}
+
+.footer-content p {
+            font-size: 13px;
+            color: #fff;
+            margin: 0;
+           
+}
+  
+          
+ 
+
+  /*===========footer-area-end========*/
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+  
+

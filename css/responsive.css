@@ -1,0 +1,290 @@
+/* =============for-lg-screen========*/
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+
+/*============header-area-start=====*/
+
+  .header-menu ul li {
+          padding: 7px 17px;
+  }
+
+  .header-menu ul li a {
+          font-size: 12px;
+               
+  }
+   
+  /*============header-area-end========*/
+
+  /*============wellcome-area-start========*/
+  
+  .wellcome-desbord-1 i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        
+}
+
+.wellcome-desbord-2 i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        
+
+}
+
+/*============wellcome-area-start========*/
+
+/*============service-area-start========*/
+  .service-button-1,
+  .service-button-2,
+  .service-button-3 {
+           font-size: 12px;
+           padding: 5px 4px 5px 4px;
+           
+  }
+
+  .service-item {
+             padding: 10px 4px 20px 4px;
+  }
+
+  .service-item-1 {
+              padding: 10px 4px 20px 4px;
+  }
+
+
+/*============wellcome-area-end========*/
+
+
+}
+
+/* ===========for-lg-screen-end======*/
+
+
+/*============for-tablet-screen======*/
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+/*=================header-area-start======*/
+
+  .header-social ul li {
+          padding: 15px 8px;
+  }
+
+  .header-menu ul li {
+          padding: 7px 7px;
+  }
+
+  .header-menu ul li a {
+          font-size: 12px;
+               
+  }
+
+  /*=================header-area-end======*/
+
+  /*=================wellcome-area-start======*/
+
+  .wellcome-desbord-1 i {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+       
+}
+
+  .wellcome-desbord-2 i {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+
+  }
+
+    .wellcome-desbord-1 {
+          padding: 5px 5px 5px 7px;
+          
+  }
+
+  .wellcome-desbord-2 {
+          padding: 5px 5px 5px 7px;
+          
+  }
+
+  .wellcome-desbord-2 dl {
+          font-size: 11px;
+       
+}
+
+.wellcome-desbord-1 p {
+          font-size: 13px;
+        
+}
+
+.wellcome-desbord-1 dl {
+          font-size: 11px;
+        
+}
+
+.wellcome-desbord-2 p {
+          font-size: 13px;
+        
+}
+
+
+ /*=================wellcome-area-end======*/
+
+  
+
+
+
+
+
+
+}
+
+/*===========for-tablet-screen======*/
+
+
+/*===========for-mobil-screen========*/
+
+@media screen and (max-width: 767px) {
+
+/*=================header-area-start==============*/
+
+  .header-area {
+        padding: 10px 0;
+  }
+
+  .header-menu ul {
+        display: none;
+
+  }
+
+  .menu-bars i {
+        display: block;
+
+  }
+
+  .header-social ul {
+         padding-left: 7px;
+  }
+
+  .header-social ul li {
+          padding: 15px 2px;
+  }
+
+ /* ===========header-area-end=======*/
+
+ /* ===========wellcome-area-start=======*/
+
+  .wellcome-area {
+          padding: 40px 0 40px 0;
+}
+
+.wellcome-content h5 {
+          margin: 40px 0 0 0;
+}
+
+.wellcome-content p {
+          margin: 15px 0 0 0;
+
+}
+
+.wellcome-images img {
+          margin: 30px 0 0 0;
+}
+
+.wellcome-desbord-1 {
+        padding: 6px 5px 15px 7px;
+        
+}
+
+.wellcome-desbord-2  {
+        padding: 5px 5px 15px 7px;
+        
+}
+
+ .wellcome-desbord-2 dl {
+        font-size: 11px;
+       
+}
+
+.wellcome-desbord-1 p {
+        font-size: 13px;
+        
+}
+
+.wellcome-desbord-1 dl {
+        font-size: 11px;
+        
+}
+
+.wellcome-desbord-2 p {
+        font-size: 13px;
+        
+}
+
+.wellcome-desbord-1 i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+}
+
+.wellcome-desbord-2 i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+       
+}
+
+ /* ===========wellcome-area-end=======*/
+
+ /* ===========service-area-start=======*/
+
+ .service-area {
+        padding: 45px 0 40px 0;
+        
+}
+
+ /* ===========service-area-end=======*/
+
+ /* ===========people-area-start=======*/
+  .people-area {
+              padding: 0 0 35px 0;
+  }
+
+
+  .people-title h2 {
+               padding: 40px 0 0 0;      
+  }
+
+  .people-title p {
+               margin: 30px 0 0 0;      
+
+  }
+
+  .people-content img {
+               margin: 30px 0 0 0;
+  }
+
+  .people-lorem-1,
+  .people-lorem-2 {
+              margin: 22px 0 0 0;
+
+
+  }
+
+ /* ===========people-area-end=======*/
+
+ /* ===========contact-area-start=======*/
+  .contact-item h2,
+  .our-service-item h2,
+  .links-item h2,
+  .contact-item h2 {
+              padding: 39px 0 14px 0; 
+  }
+
+ /* ===========contact-area-end=======*/
+
+
+}
+
+/*===================mobil-area-screen================*/
+         
